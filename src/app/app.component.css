@@ -1,0 +1,149 @@
+h1{
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+body{
+    background-color: white;
+    
+}
+.nav1{
+    background-color:darkblue !important;
+    color: whitesmoke !important;
+}
+.letraw{
+    color: whitesmoke !important;
+}
+.imagen1
+{
+    width: 25%;
+    height: auto;
+    margin-bottom: 0;
+}
+.cuadro{
+    background-color: #08581c;
+    margin: 3%;
+    padding: 4%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin-bottom: 0 !important;
+}
+.carr{
+    height: 40%;
+    width: auto;
+    margin: 7%; 
+    margin-bottom: 2% !important;
+    margin-top: 0.5% !important;
+}
+
+footer {
+    flex: 0 1 100%;
+    margin: 4px;
+    padding: 2px;
+    border: 1px solid #959595;
+    border-radius: 5px;
+    height: auto;
+    padding-right: 20px;
+}
+
+#bl{
+    color: black;;
+    padding: 1%;
+    margin: 0;
+    height: auto !important;
+}
+.der{
+    float: right;
+    color: white;
+    font-size: 13px;
+    padding-top: 0.5%;
+}
+.izq{
+    float: left;
+}
+#cajasoltar{
+float: left;
+width: 90%;
+height: 200px;
+margin: 10px;
+border: 1px solid #999999;
+    border-style: dotted;
+    border-width: thick;
+    border-color: purple;
+}
+#cajaimagenes{
+float: left;
+width: 320px;
+margin: 10px;
+border: 1px solid #999999;
+}
+#cajaimagenes > img{
+float: left;
+padding: 5px;
+}
+.dd{
+    background-color: darkseagreen;
+
+}
+
+.let{
+    margin-left: 5%;
+}
+
+.logo{
+  margin: 2%;
+  width: 4%;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
